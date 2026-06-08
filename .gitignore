@@ -1,0 +1,21 @@
+# Large media files
+CCTV raw video/
+*.asf
+
+# Dataset files
+dataset_frames/
+test_labels_output/
+test_labels_output_v2/
+*.jpg
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local editor and environment settings
+.gemini/
+.cursor/
+.superpowers/
+.agents/
+.Agent/

@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "fae8981f54c5453e",
+    "type": "split",
+    "children": [
+      {
+        "id": "37c887b650776b11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6df75f71c9fa6504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech Stack 2026/Note Taking & Research Assistant Powered by AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note Taking & Research Assistant Powered by AI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "343031332810b10c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1d99e27c57da6a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "448e716b33703ae8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "027cd830cdb08df3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cb264e9b455a6e76",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e79a9b3330494fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "51b9b12149fabf89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b127844ea8384c5f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DOCUMENTATION_INDEX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DOCUMENTATION_INDEX"
+            }
+          },
+          {
+            "id": "2c365279b9b9699d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DOCUMENTATION_INDEX.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DOCUMENTATION_INDEX"
+            }
+          },
+          {
+            "id": "2bada67958c6cc4d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "425c955b0e75184a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5a09b39c8439b0d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DOCUMENTATION_INDEX.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DOCUMENTATION_INDEX"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "6df75f71c9fa6504",
+  "lastOpenFiles": [
+    "Use the power of AI for quick summarization and note taking, NotebookLM is your powerful virtual research assistant rooted in information you can trust/Note Taking & Research Assistant Powered by AI.md",
+    "Tech Stack 2026/Note Taking & Research Assistant Powered by AI.md",
+    "Tech Stack 2026",
+    "Use the power of AI for quick summarization and note taking, NotebookLM is your powerful virtual research assistant rooted in information you can trust",
+    "7 Key UI Design Principles + How To Use Them/7 Key UI Design Principles + How To Use Them.md",
+    "7 Key UI Design Principles + How To Use Them",
+    "10 UX/UI Design Portfolio Examples to Inspire You (Updated for 2026)/10 UXUI Design Portfolio Examples to Inspire You (Updated for 2026).md",
+    "การออกแบบ UX/UI ที่ดี/การออกแบบ UXUI ที่ดี และมีประสิทธิภาพ.md",
+    "10 UX/UI Design Portfolio Examples to Inspire You (Updated for 2026)",
+    "10 UX",
+    "VoltAgent/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md",
+    "การออกแบบ UX/UI ที่ดี",
+    "การออกแบบ UX",
+    "VoltAgent",
+    "debugger.md/awesome-claude-code-subagentscategories04-quality-securitydebugger.md at main.md",
+    "How to Debug Your Code/How to Debug Your Code, the Right Way — Like a Pro with Examples.md",
+    "debugger.md",
+    "Kodezi Chronos/KodeziChronos Kodezi Chronos is a debugging-first language model that achieves state-of-the-art results on SWE-bench Lite (80.33%) and 67% real-world fix accuracy, over six times better than GPT-4. Built with Adaptive Graph-Guided Retrieval and.md",
+    "How to Debug Your Code",
+    "prisma/prismaprisma Next-generation ORM for Node.js & TypeScript  PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB.md",
+    "Kodezi Chronos",
+    "Next.js คืออะไร ช่วยให้เราทำงานได้ง่ายขึ้นยังไงบ้าง/Next.js คืออะไร ช่วยให้เราทำงานได้ง่ายขึ้นยังไงบ้าง.md",
+    "5 reasons to choose Mantine (UI)/5 reasons to choose Mantine (UI).md",
+    "Mantine/A fully featured React components library.md",
+    "100-javascript-projects/pradipchaudhary100-javascript-projects Explore a curated collection of 100 practical JavaScript projects to sharpen your skills from beginner to advanced levels.md",
+    "DOCUMENTATION_INDEX.md",
+    "Untitled.canvas",
+    "tech stack/tech stack 2026.md",
+    "llm-wiki/llm-wiki.md"
+  ]
+}
