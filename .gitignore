@@ -1,21 +1,67 @@
-# Large media files
-CCTV raw video/
-*.asf
+# Environment & Secrets
+.env
+.env*.local
+*.pem
+*.key
 
-# Dataset files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Large Datasets & Media
+*.asf
+*.mp4
+*.avi
+*.mkv
+*.mov
+Demo AI CCTV.asf
+CCTV raw video/
 dataset_frames/
 test_labels_output/
 test_labels_output_v2/
-*.jpg
-*.png
+CCTV Helmet Detection.v3i.yolov11/
+datasets/
 
-# Python cache
-__pycache__/
-*.pyc
+# Model Weights & Training Checkpoints
+*.pt
+*.onnx
+*.engine
+*.bin
+*.xml
+helmet_training_results/
+runs/
 
-# Local editor and environment settings
+# Runtime Database & Generated Event Assets
+data/
+*.db
+*.sqlite
+*.sqlite3
+events.db
+
+# Node.js & Dashboard Build
+node_modules/
+dashboard/node_modules/
+.next/
+dashboard/.next/
+out/
+dashboard/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 .gemini/
 .cursor/
 .superpowers/
-.agents/
-.Agent/
+.impeccable/

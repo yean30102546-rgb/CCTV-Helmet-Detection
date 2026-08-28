@@ -1,15 +1,23 @@
-# Project Knowledge Index
+# Second Brain Knowledge Index
 
-## Lessons Learned & Fixes
-- [RBAC Enum Casing & Playwright Locators](lessons-learned/rbac-casing-and-e2e.md) - บันทึกการแก้ไขปัญหา UserRole (Uppercase) ที่ทำให้เกิด Type Error ตอน Build และการแก้ไขปัญหา Playwright Script พังจากการใช้ XPath ใน Apple-style UI
-- [Item Master Upsert & Auto Fill Sync Flow](lessons-learned/item-master-upsert-flow.md) - บันทึกสาเหตุและการแก้ไขปัญหา Auto Fill ของ Item Master ไม่ทำงานเนื่องจากการข้ามเก็บ Item Code และการจัดการ Error แบบเงียบ
-- [Rework Form Refactoring & PDF Export Wrapping](lessons-learned/rework-form-refactoring-and-pdf.md) - สรุปบทเรียนการเปลี่ยนมาใช้ react-hook-form, ข้อควรระวังในการใช้ useFormContext นอก Provider และการแก้ปัญหาตัวหนังสือไทยขาดหายบน PDF ด้วย Zero-Width Space (\u200B)
-- [RAG Streaming UI & Hybrid Search Lessons Learned](lessons-learned/rag-ui-and-hybrid-search.md) - บันทึกข้อมูลและบทเรียนในการพัฒนาการ Stream คำตอบ (SSE) ใน Next.js, การใช้ Supabase RPC ทำ Hybrid Search ค้นหาเอกสารแบบไม่มีซ้ำ และการจัดการ Suggestion Chips ด้วย Regex
-- [Windows CLI Environment & Unzip command workaround](lessons-learned/windows-cli-environment.md) - วิธีแก้ปัญหาคำสั่ง unzip ไม่ทำงานบนระบบปฏิบัติการ Windows โดยการใช้ unzip.exe ของ Git for Windows
+[Updated: 2026-07-22]
 
+Welcome to the centralized knowledge index for the **CCTV Helmet Detection Project**.
 
-## Architecture & System Design
-- [Next.js RAG Module Architecture](architecture/rag-module-nextjs.md) - สรุปสถาปัตยกรรมโมดูล RAG ของระบบ Next.js Portal ที่ใช้ Gemini API ร่วมกับ Supabase pgvector สำหรับเก็บและสืบค้นเอกสาร
-- [CCTV Helmet Detection System Architecture](architecture/cctv-helmet-detection.md) - โครงสร้างและแนวทางการพัฒนาโครงการตรวจจับคนไม่สวมหมวกนิรภัย ผ่านกล้อง CCTV ของโรงงานและการแจ้งเตือนผ่าน LINE Notify
+## Core Architecture & System Design
+- [[architecture/cctv-helmet-detection-system.md]]: High-level architecture, RTSP ingestion, OpenVINO CPU acceleration, and notification pipeline.
+- [[tech-stack/yolo11-openvino-opencv.md]]: Technology stack specification covering YOLO11n, OpenVINO runtime, OpenCV, Python 3, and LINE Notify.
 
+## System Components
+- [[components/model-training-and-export.md]]: YOLO11 model training pipeline (`train_helmet.py`) and OpenVINO conversion script (`export_model.py`).
+- [[components/rtsp-cctv-inference-and-notification.md]]: Real-time CCTV stream reader, frame skip optimization, detection logic, and LINE Notify alert mechanism (`run_cctv.py`, `run_images_as_video.py`).
 
+## Lessons Learned & Quality Assurance
+- [[lessons-learned/bugs-and-fixes.md]]: Identified bugs, class name mismatch warnings (`no_helmet` vs `no-helmet`), cooldown configuration, and historical fix patterns.
+
+## Audit & Raw Knowledge Management
+- `1_raw/` Tier Classification:
+  - **Tier A (Active Architecture)**: Synthesized into Wiki structure above.
+  - **Tier B (Bug Fixes & Postmortems)**: Recorded in lessons-learned.
+  - **Tier C (General Reading & External Docs)**: Retained in `1_raw/` for lazy loading (Mantine, Next.js, UI Glossary, etc.).
+  - **[Conflict Note]**: Legacy web app notes in `1_raw/` tagged as deprecated relative to the current Python Computer Vision system.

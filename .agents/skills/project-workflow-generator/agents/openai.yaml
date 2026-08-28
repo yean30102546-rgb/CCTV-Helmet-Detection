@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Workflow Generator"
+  short_description: "Generates project workflow Mermaid diagrams"
+policy:
+  allow_implicit_invocation: false

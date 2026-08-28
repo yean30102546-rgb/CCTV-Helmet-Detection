@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Reporter"
+  short_description: "Generates project reports and thesis outlines"
+policy:
+  allow_implicit_invocation: false
